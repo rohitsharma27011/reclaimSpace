@@ -19,9 +19,6 @@ function Navbar() {
             </a>
 
             <div id="nav-menu" className="flex gap-12">
-                <a href="" className="hover:text-orange">Dummy</a>
-                <a href="" className="hover:text-orange">Dummy</a>
-                <a href="" className="hover:text-orange">Dummy</a>
             </div>
             <div className='m-2'>
             <Button type="primary" onClick={handleLogin}>Login</Button>
