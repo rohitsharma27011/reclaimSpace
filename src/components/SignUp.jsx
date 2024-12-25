@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LoginForm = () => {
+const SignUp = () => {
     return (
         <div className="fixed inset-0 flex justify-center items-center bg-black/70 z-[10000]">
             <Link to="/">
@@ -13,8 +13,12 @@ const LoginForm = () => {
                 </label>
             </Link>
             <form className="border border-gray-300 bg-white rounded-lg p-8 w-full max-w-xl">
-                <h2 className="text-3xl text-center text-orange-500 mb-6">Login</h2>
-
+                <h2 className="text-3xl text-center text-orange-500 mb-6">SIGNUP</h2>
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    className="w-full p-3 text-lg text-gray-800 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring focus:ring-orange-300"
+                />
                 <input
                     type="email"
                     placeholder="Enter your email"
@@ -40,11 +44,10 @@ const LoginForm = () => {
                     Forgot password? <a href="#" className="text-orange-500 hover:underline">Click here</a>
                 </p>
                 <p className="text-lg">
-                    Don't have an account?{' '}
-                     <Link to='/signup'>
+                    Already have an account?{' '}
+                    <Link to='/login'>
                     <a href="#" className="text-orange-500 hover:underline">
-                        Sign Up
-                       <a class="fas fa-user"></a>
+                        Sign in
                     </a>
                     </Link>
                 </p>
@@ -53,4 +56,4 @@ const LoginForm = () => {
     );
 };
 
-export default LoginForm;
+export default SignUp;
