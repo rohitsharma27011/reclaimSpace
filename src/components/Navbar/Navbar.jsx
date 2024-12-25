@@ -13,7 +13,7 @@ function Navbar() {
 
     return (
         <div className="p-1 flex bg-[#d7c3a3] justify-between items-center">
-            <a href="#" id="brand" className="flex gap-2 items-center">
+            <a href="/" id="brand" className="flex gap-2 items-center">
                 <img className="object-cover max-w-16 max-h-16" src="../src/assets/img-1.png" alt="logo" />
                 <div className="text-2xl font-medium"><span className=''>R</span>eclaimSpace</div>
             </a>
