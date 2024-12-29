@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <div
-        className=" h-[752px] flex justify-between items-center bg-[url('../src/assets/img-8.jpg')] bg-cover bg-center"
+        className="flex justify-between items-center bg-[url('../src/assets/img-8.jpg')] bg-cover bg-center min-h-screen"
         id="home"
       >
         <div className=" h-52 w-80 ml-4 mr-4 p-2">
