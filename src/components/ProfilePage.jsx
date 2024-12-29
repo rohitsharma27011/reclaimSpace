@@ -58,7 +58,7 @@ function ProfilePage() {
   };
 
   return (
-    <div className=" h-[752px] flex justify-start bg-[url('../src/assets/img-8.jpg')] bg-cover bg-center">
+    <div className="flex justify-start">
       <div className=" h-full w-1/3 m-6 mb-0">
         <div
           id="profile-pic"
@@ -83,7 +83,7 @@ function ProfilePage() {
           </div>
         </div>
 
-        <div className=" h-72 mt-0 ml-2 mr-2">
+        <div className="mt-0 ml-2 mr-2">
           <div className="m-4">
             <h2 className='text-lg'>Username</h2>
             <Input value="JohnDoe123" disabled />
