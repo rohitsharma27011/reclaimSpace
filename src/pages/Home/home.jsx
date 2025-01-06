@@ -30,7 +30,7 @@ const Home = () => {
 
         <div className=" w-2/3 h-80 flex justify-center items-center  p-2">
           {/* First Image Section */}
-          <div className="w-24 h-full m-2 flex flex-col flex-grow items-center m-3 mr-16">
+          <div className="w-24 h-full  flex flex-col flex-grow items-center m-3 mr-16">
             <div
               className=" h-24 w-[280px] flex flex-grow m-2 relative rounded-lg overflow-hidden cursor-pointer transform transition duration-300 hover:scale-105 hover:shadow-lg hover:brightness-90 active:scale-95"
               onClick={openModal} // Open modal on click
